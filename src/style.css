@@ -1,0 +1,231 @@
+img{
+  display: block;
+  margin-top: auto;
+  width: 10vw;
+}
+
+.testt{
+  border: 1px solid white;
+}
+
+body {
+  background-color: #1c1412;
+  color: aliceblue;  
+}
+
+.cachecolumn{
+  background-color: rgb(28, 20, 18, 0.5);
+  border-radius: 15px;
+  padding: 2%;
+  margin: 0.5%;
+  text-align: center;
+}
+.OPandF {
+  padding: 2%;
+  border-radius: 15px;
+  border: 1px solid aliceblue;
+  background-color: rgb(32, 62, 74);
+}
+.row-main {
+  margin-bottom: 1%;
+}
+.option {
+  padding: 5%;
+  height: 100%;
+  background-color: rgb(28, 20, 18, 0.5);
+  border-radius: 15px;
+}
+
+.filter {
+  background-color: rgb(28, 20, 18, 0.5);
+  border-radius: 15px;
+  padding: 1%;
+  margin: 1%;
+}
+#SaveToFile {
+  width: 50%;
+  text-align: center;
+}
+.accordion-button {
+  background-color: rgb(32, 62, 74);
+  color: aliceblue;
+  border: 1px solid aliceblue;
+}
+.accordion-button::after,
+.accordion-button:not(.collapsed):after {
+  background-image: none;
+}
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed,
+.accordion-header,
+.accordion-body {
+  border-radius: 15px;
+}
+.accordion-item {
+  background-color: transparent;
+}
+.accordion-body {
+  position: relative;
+  background-color: rgb(32, 62, 74);
+  width: 80%;
+  left: 10%;
+  text-align: left;
+}
+.F2SInput{
+  margin-top: 5%;
+  background-color: rgb(28, 20, 18, 0.5);
+  padding: 5%;
+  border-radius: 15px;
+}
+.F2SInput label{
+  color: aliceblue;
+}
+.filterButton, .filterButton:hover {
+  margin: 1%;
+  text-align: center;
+  width: 20%;
+  padding:  2%;
+  text-overflow: clip;
+  
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+#computeButton {
+  height: 80%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(28, 20, 18);
+}
+#commandContainer {
+  border: 3px solid #ffff00;
+  border-radius: 15px;
+  padding: 2% 5%;
+  color: rgb(28, 20, 18);
+  text-align: center;
+  font-family: monospace;
+}
+.commandRow {
+  background-color: #ffff00;
+  border-radius: 5px;
+  padding: 1%;
+
+  text-align: center;
+}
+
+.minimizeButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.copyButton{
+height: 100%;
+width: auto;
+}
+.vlanInput{
+margin-top: 5%;
+background-color: rgb(32, 62, 74);
+padding: 5%;
+border-radius: 15px;
+
+}
+.vlanInput input{
+margin-bottom: 5%;
+}
+
+#rfeContainer{
+  position: relative;
+  width: 90%;
+  left: 5%;
+}
+#RFEform{
+  position: absolute;
+  top: -300%;
+  left: 35%;
+  width: 30%;
+  background-color: #1c1412;
+  padding: 2%;
+  border-radius: 15px;
+  border: 1px solid aliceblue;
+  transition:all 0.5s ease;
+}
+.formColumn{
+  background-color: rgb(32, 62, 74);
+  border-radius: 15px;
+  margin: 1%;
+  padding: 5%;
+}
+#closeForm{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.rfeTitles {
+  font-size: 1em;
+  text-align: center;
+  border: 1px solid aliceblue;
+  padding: 1%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: 0.5%;
+}
+.rfeEntryRow{
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+}
+.rfeEntries{
+  font-size: 1em;
+  margin: 0.5%;
+  text-align: center;
+}
+.rfeEntryRow:nth-child(odd){
+  background-color: aliceblue;
+  color: rgb(32, 62, 74);
+}
+
+#addRFE{
+  position: absolute;
+  right: 2vw;
+  top: 2vw;
+}
+.navbar{
+  color: aliceblue;
+}
+.nav a{
+  color: aliceblue;
+  text-decoration: underline;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.nav a:hover{
+  background-color: aliceblue;
+  color: blue;
+}
+.wrapper{
+  width: 5vw;
+}
+.wrapperEnd{
+  width: 18vw;
+}
+
+.editordelete{
+  
+  background-color: rgb(28, 20, 18);
+  border: 1px solid aliceblue;
+  width: 30vw;
+  padding: 2%;
+}
+.editordelete input{
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+}
+.editordelete button{
+  align-items: center;
+}
